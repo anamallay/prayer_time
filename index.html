@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- API AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- fonts google Arabic text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <!-- link of file css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link of file font awsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <title>مواعيد الصلاة</title>
+</head>
+<body>
+<!-- HEADER  -->
+<div class="the-header">
+<!-- background video -->
+<video autoplay muted loop id="myVideo">
+    <source src="video/sky.mp4" type="video/mp4">
+</video>
+<!-- // backgrounf video // -->
+<!-- title website-->
+<div class="inter-title">
+    <i id="icon" class="fa-solid fa-mosque"></i>
+    <h1>مواعيد الصلاة في السعودية</h1>
+</div>
+<!-- // title website // -->
+<!-- location -->
+<div class="location">
+    <i id="icon_loaction" class="fa-solid fa-location-dot"></i>
+    <div class="location-title">     
+    <select name="citys" id="city">
+        <option disabled selected value> أختار مدينة..</option>
+        <option value="Makkah al Mukarramah">مكة المكرمة</option>
+        <option value="Al Madinah">المدينة المنورة</option>
+        <option value="Al Hudud ash Shamaliyah">عرعر</option>
+        <option value="Ha'il">حائل</option>
+        <option value="Ar Riyāḑ">الرياض</option>
+        <option value="Jeddah">جدة</option>
+        <option value="Tabuk">تبوك</option>
+        <option value="Ash Sharqiyah">الدمام</option>
+        <option value="Al Qasim">بريدة</option>
+        <option value="Al Bahah">الباحة</option>
+        <option value="Al Jawf">سكاكا</option>
+        <option value="'Asir">أبها</option>
+        <option value="jazan">جازان</option>
+        <option value="Najran">نجران</option>
+        
+
+    </select>
+    </div>
+</div>
+<!-- // location // -->
+<hr>
+</div>
+<!-- // THE HEADER // -->
+<!-- THE BODY -->
+<div class="the-body">
+<!-- Date Display -->
+<div class="date-display">
+    <div class="data-loaction">
+        <div class="data-loaction-question">
+            <h2>الموقع:</h2>
+        </div>
+        <div class="data-loaction-answer">
+            <h2 id="location">???</h2>
+        </div>
+    </div>
+    <div class="data-date">
+        <div id="data-date-question">
+            <h2>تاريخ اليوم:</h2>
+        </div>
+        <div id="data-date-answer">
+            <h2 id="date">+++</h2>
+        </div>  
+    </div>
+    <div class="data-day">
+        <div id="data-day-question">
+            <h2>الموافق يوم:</h2>
+        </div>
+        <div id="data-day-answer">
+            <h2 id="day">+++</h2>
+        </div>
+    </div>
+</div>
+<!-- // Date Display // -->
+<!-- Box of prayer -->
+<div class="prayer-box">
+    <div class="prayer-fajr">
+        <h3>صلاة الفجر</h3>
+        <p id="fajr">???</p>
+    </div>
+    <div class="prayer-sunrise">
+        <h3>صلاة الشروق</h3>
+        <p id="sunrise">???</p>
+    </div>
+    <div class="prayer-dhuhr">
+        <h3>صلاة الظهر</h3>
+        <p id="dhuhr">???</p>
+    </div>
+    <div class="prayer-asr">
+        <h3>صلاة العصر</h3>
+        <p id="asr">???</p>
+    </div>
+    <div class="prayer-maghrib">
+        <h3>صلاة المغرب</h3>
+        <p id="maghrib">???</p>
+    </div>
+    <div class="prayer-isha">
+        <h3>صلاة العشاء</h3>
+        <p id="isha">???</p>
+    </div>
+</div>
+<!-- // Box of prayer // -->
+</div>
+<!-- // THE BODY // -->
+ 
+
+<script src="prayer.js"></script>
+</body>
+</html>

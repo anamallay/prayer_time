@@ -1,0 +1,185 @@
+*{
+    font-family: 'IBM Plex Sans Arabic';
+}
+/* background video */
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+/* // background video // */
+/* title website */
+.inter-title{
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+.inter-title #icon{
+    color: wheat;
+    margin-right: 30px;
+    font-size: 100px;
+}
+.inter-title h1{
+    font-size: 40px;
+    color: wheat;
+    line-height: 1;
+}
+@media (max-width:830px ) {
+    .inter-title h1{
+       font-size: 20px;
+       line-height: 1;
+    }
+    .inter-title #icon{
+        font-size: 20px;
+        line-height: 2;
+    }
+}
+/* // title website // */
+/* location */
+.location{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.location i{
+    font-size: 55px;
+    color: wheat;
+    margin-top: 20px;
+    line-height: 0.5;
+    padding: 20px;
+}
+.location .location-title{
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+.location .location-title #city{
+    padding: 5px 25px;
+    background-color: caf0f843;
+    font-size: 15px;
+    border: none;
+    font-weight: 900;
+    border-radius: 5px;
+}
+select
+{
+    background-color: wheat;
+}
+@media (max-width:830px) {
+    .location i{
+        position: absolute;
+        top: 70px;
+        left: 40px;
+        font-size: 30px;
+    
+    }
+    .location .location-title{
+        position: absolute;
+        top: 100px;
+        left: 110px;
+    }
+}
+/* // location // */
+/* ============================================== */
+hr{
+    border: 2px solid wheat;
+    border-radius: 5px;
+}
+@media (max-width:830px ) {
+    hr{
+        position: absolute;
+        width: 95%;
+        top: 50px;
+    }
+}
+/* ============================================== */
+/* Date */
+.date-display{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: wheat;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+.data-loaction{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: wheat;
+    font-size: 25px;
+}
+.data-loaction .data-loaction-answer h2{
+    background-color: #caf0f843;
+    padding: 5px;
+    color: wheat;
+    border-radius: 10px;
+}
+.date-display .data-date{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.date-display .data-date #data-date-answer h2{
+background-color: #caf0f843;
+padding: 5px;
+color: wheat;
+border-radius: 10px;
+}
+.date-display .data-day{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.date-display .data-day #data-day-answer h2{
+    background-color: #caf0f843;
+    padding: 5px;
+    color: wheat;
+    border-radius: 10px;
+}
+@media (max-width:830px ) {
+    .date-display,.data-loaction{
+        margin-top: 50px;
+        font-size: 17px;
+    }
+}
+/* // Date // */
+/* Box of prayer */
+.prayer-box{
+    margin-top: 80px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.prayer-box div{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    background-color: #caf0f843;
+    text-align: center;
+}
+.prayer-box div:hover{
+    color: wheat;
+}
+.prayer-box h3{
+    font-size: 20px;
+}
+.prayer-box p{
+    direction: ltr;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: rgba(245, 222, 179, 0.801);
+    color: black;
+    padding: 7px;
+}
+/* ---Box of prayer--- */
+    
